@@ -41,7 +41,7 @@ kind: Service
 metadata:
   name: webapp-service
 spec:
-   type: NodePort
+  type: NodePort
   selector:
     app.kubernetes.io/name: webapp
   ports:
